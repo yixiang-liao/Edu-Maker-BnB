@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MakerBnB</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="maker.css">
+
+</head>
+<body>
+    <div class="maker_map c"> 
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6916.955566547352!2d120.30276937045964!3d22.68730006386461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e056fdf0bfa69%3A0x21aec53e9d5ec9a6!2z6auY6ZC15bem54ef56uZ!5e0!3m2!1szh-TW!2stw!4v1698204346039!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="search">
+            <input class="search-input"/>
+            <i class="fas fa-search c"></i>
+        </div>
+        <button class="show-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><span class="fas fa-map-marker-alt"></span>
+        </button>
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+                <div class="information c">
+                    <div class="circle">
+                        <img src="img/3.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <p>設備: <span>3D列印機</span></p>
+                        <p>地點: <span>ＯＯ市ＯＯ區ＯＯ路ＯＯ號</span></p>
+                        <a href="reserve.html"><div class="btn c">我要預約</div></a>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="menu c">
+            <div class="btn c"><a href="maker_map.html"><i class="fas c fa-home"></i></a></div>
+            <div class="btn c"><a href="workshop.html"><i class="fas c fa-school"></i></a></div>
+            <div class="btn c"><a href="resource_library.html"><i class="fas c fa-solid fa-folder"></i></a></div>
+            <div class="btn c"><a href="shared.html"><i class="fas c fa-solid fa-share"></i></a></div>
+        </div>
+    </div>
+   
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="maker.js"> </script>
+</body>
+</html>

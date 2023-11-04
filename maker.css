@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    line-height: 1.1rem;
+    letter-spacing: 1px;
+    font-family: "微軟正黑體";
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    background:#fcba03;
+    flex-direction: column;
+}
+.logo{
+    max-width: 500px;
+    height: auto;
+    flex-direction: column;
+}
+.logo h3{
+    font-size: 2.2rem;
+    margin: 2.5rem 0;
+}
+.logo-inner{
+    width: 300px;
+    height: 300px;
+}
+.logo-inner img{
+    width: 100%;
+    height: 100%;
+}
+.logo-name{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+.select{
+    flex-direction: column;
+}
+.btn{
+    width: 75%;
+    height: 45px;
+    border-radius: 50px;
+    margin: 1rem 0;
+    font-size: 1em;
+    padding: 0 1.5rem;
+    text-align: center;
+    border: none;
+}
+.select-btn{
+    background-color: #fff;
+    border:1px solid #000 ;
+}
+.select-btn a{
+    color: #000;
+    text-decoration: none;
+}
+
+.maker_map{
+    width:100% ;
+    height: 100vh;
+}
+.maker_map .map{
+    width: 100%;
+    height: 100%;
+    border:none;
+    position: relative;
+}
+.maker_map .search{
+    position: absolute;
+   
+    width: 60%;
+    height: 45px;
+   
+    border-radius: 50px;
+    background: #fff;
+    top: 2rem;
+    display:flex;
+    justify-content: space-between;
+}
+.maker_map .search-input{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    padding: 0 2rem;
+}
+.maker_map .fa-search{
+    position: absolute;
+    right: 0;
+    top: 50%; 
+    transform: translateY(-50%);
+    color: #000;
+    margin-right: 1rem;
+}
+.maker_map .information{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    box-shadow: 2px 2px 2px #fff;
+    border: 1px solid #000;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.maker_map .circle{
+    position: absolute;
+    top: -115px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    background: #fff;
+    border-radius: 50%;
+    /*border: 1px solid #000;*/
+    box-shadow: 2px 2px 10px #999999;
+    padding: 1rem;
+}
+.maker_map .circle img{
+    width: 100%;
+    height: 100%;
+}
+.maker_map .content{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    margin-top: 10%;
+    font-size: 1.3rem;
+}
+.maker_map .content a{
+   color: #fff;
+   text-decoration: none;
+}
+.maker_map .content p{
+   font-weight: bold;
+}
+.maker_map .content span{
+    font-weight: 400;
+}
+.maker_map .content .btn{
+    background: #fcba03;
+    color: #fff;
+    width: 100%;
+    height: 55px;
+}
+.maker_map .show-info{
+    position: absolute;
+    background: none;
+    border: none;
+} 
+.fas{
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.maker_map .fa-map-marker-alt{
+    color: red;
+}
+.menu{
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+.menu .btn{
+    color: #fff;
+}
+.menu a{
+    color: #fff;
+    flex-direction: none;
+}
+.workshop{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #fcba03;
+}
+ .title{
+    font-size: 3rem;
+    width: 100%;
+    height: auto;
+    padding: 3.5rem;
+    color: #000;
+}
+.workshop .content-list{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.workshop .content-list .item{ 
+    flex-direction: column;
+    width: 80%;
+    height: 175px;
+    box-shadow: 2px 2px 10px #999999;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    background: #fff;
+}
+.workshop .content-list .item h4{ 
+    height: 20%;
+}
+.workshop .content-list .item .info{ 
+    justify-content: start;
+    width: 100%;
+    height: 80%;
+}
+.workshop .content-list .item .info img{
+    width: 80px;
+    height: auto;
+}
+.workshop .content-list .item .info .text{
+    padding: 0 .5rem;
+    width: 100%;
+    height: 100%;
+    align-items: start;
+    flex-direction: column;
+    font-size: .9rem;
+}
+.reserve{
+    width: 100%;
+    height: 100%;
+    
+}
+.reserve .list{
+    width: 60%;
+    height: auto;
+    padding: 2rem;
+    background:#fcba03;
+    box-shadow: 2px 2px 5px #999999;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.reserve .list .submit{
+    background-color: #fff;
+    font-size: 1.3rem;
+    margin: 2rem 0 0 0;
+    width: 100%;
+}
+.reserve .input{
+    width: 100%;
+}
+.reserve .input span{
+    width: 25%;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0 1rem;
+}
+.reserve .input input{
+    width: 80%;
+    border: 1px solid #125c0a;
+}
+.reserve .input .form-select {
+    width: 80%;
+    height: 45px;
+    border-radius: 50px;
+}
+.reserve .modal-content{
+    border: none;
+}
+.reserve .modal-header{
+    border: none;
+}
+.resource_library{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background: #fcba03;
+}
+.resource_library .content-list{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+   margin-bottom: 2rem;
+}
+.resource_library .content-list .item{
+    flex-direction: column;
+    height: 400px;
+    width: 80%;
+    box-shadow: 2px 2px 10px #999999;
+    border-radius:20px ;
+    margin: 1rem 0;
+    background: #fff;
+}
+.resource_library .content-list .item h4{
+    width: 100%;
+    height: 20%;
+    padding: 1rem;
+}
+.resource_library .content-list .item .info{
+    width: 80%;
+    height: 65%;
+    flex-direction: column;
+}
+.resource_library .content-list .item img{
+    width: 100%;
+    height: auto;
+}
+.resource_library .content-list .item button{
+    width: 80%;
+    height: 15%;
+    font-size: 1.3rem;
+    background:#fcba03;
+    color: #000;
+}
+.shared{
+    width: 100%;
+}
+.shared .list{
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.shared .list .item{
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+.shared .list .item .main {
+    width: 100%;
+    height: auto;
+}
+.shared .list .item .main img{
+    width: 100%;
+}
+.shared .list .item .function{
+    width: 100%;
+    height: 7%;
+    background: #fcba03;
+    padding: 1rem;
+    justify-content: start;
+}
+.shared .list .item .function .fas{
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+.shared .list .item .text{
+    width: 100%;
+    height: 13%;
+    padding: 1rem;
+}
+@media (max-width:398px){
+    .maker_map .information{
+        height: 300px;
+    }
+    .reserve .list{
+        width: 80%;
+        padding: 1rem;
+    }
+    .reserve .input span{
+        width: 20%;
+        font-size: 1rem;
+        color: #fff;
+        padding: 0 .2rem;
+    }
+    .maker_map .search{
+        top: 1rem;
+        right: 1rem;
+    }
+}
